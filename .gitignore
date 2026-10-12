@@ -1,0 +1,19 @@
+# whitelist: track only what gets deployed (same list as CLAUDE.md "배포").
+# if a page starts referencing a new file, un-ignore it here too.
+/*
+!/.gitignore
+!/index.html
+!/privacy.html
+
+!/theonai-brand-kit/
+/theonai-brand-kit/*
+!/theonai-brand-kit/favicon/
+/theonai-brand-kit/favicon/*
+!/theonai-brand-kit/favicon/apple-touch-icon.png
+!/theonai-brand-kit/favicon/favicon.ico
+!/theonai-brand-kit/favicon/favicon.svg
+!/theonai-brand-kit/svg/
+/theonai-brand-kit/svg/*
+!/theonai-brand-kit/svg/theonai-primary-dark.svg
+!/theonai-brand-kit/svg/theonai-symbol-white.svg
+!/theonai-brand-kit/svg/theonai-wordmark-dark.svg
